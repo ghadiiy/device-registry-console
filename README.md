@@ -26,3 +26,6 @@ Run the `Main` class from your Java IDE
 
 ## Data Storage
 Device records are stored in memory and are not saved after the application exits
+
+## Project Status
+The application is completed and tested
