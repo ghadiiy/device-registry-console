@@ -1,7 +1,7 @@
 # Device Registry Console
 
 ## Project Description
-A simple Java console application that allows users to manage devices
+A Java console application for managing and tracking devices
 
 ## Features
 - Add new device
