@@ -1,7 +1,8 @@
 # Device Registry Console
 
 ## Project Description
-A simple Java console application that allows users to manage devices
+
+A Java console application designed to organize and manage device records
 
 ## Features
 - Add new device
@@ -29,3 +30,12 @@ Device records are stored in memory and are not saved after the application exit
 
 ## Project Status
 The application is completed and tested
+
+## Merge Conflict Exercise
+A merge conflict occurred when two branches modified the same line in the README file
+
+To resolve the conflict, I manually edited the file and combined the two descriptions into one final description
+
+After resolving the conflict, I used git add and git commit to save the changes
+
+The merge conflict was successfully resolved
