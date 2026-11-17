@@ -1,8 +1,7 @@
 # Device Registry Console
 
 ## Project Description
-A simple Java console application that allows users to manage devices
-
+A console-based system designed to organize device records
 ## Features
 - Add new device
 - Search for device
