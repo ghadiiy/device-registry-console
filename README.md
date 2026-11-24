@@ -39,3 +39,4 @@ To resolve the conflict, I manually edited the file and combined the two descrip
 After resolving the conflict, I used git add and git commit to save the changes
 
 The merge conflict was successfully resolved
+
