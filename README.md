@@ -72,6 +72,13 @@ The following queries were tested successfully:
 3. Count events for every device, including devices with zero events
 4. Display events within a specific time range
 
+### Query Results
+
+- All devices: RFID-001, IO-001, CAM-001
+- Recent events: 3 events displayed, newest first
+- Event counts: RFID-001 = 2, IO-001 = 1, CAM-001 = 0
+- Time-range query: 3 events returned for the selected date range
+
 ### Constraint Testing
 - Duplicate device ID was rejected (Error 1062)
 - Event referencing a nonexistent device was rejected (Error 1452)
@@ -82,9 +89,14 @@ The following queries were tested successfully:
 
 ## Repository Link
 
-[Device Registry Console – GitHub](https://github.com/ghadiiy/device-registry-console)
+https://github.com/ghadiiy/device-registry-console
 
-## Latest Commit
 
-875de2c
+## Peer Review Note
+
+I reviewed a teammate's ERD and suggested using Crow's Foot notation instead of 1-N to make the relationship cardinality clearer
+
+## Actual Hours Worked
+
+Approximately 14.5 hours
 
