@@ -56,6 +56,30 @@ We used 'NOT NULL' to ensure that required fields contain values and cannot be l
 This keeps the database records complete
 
 
+## Database Testing Results
+
+### Sample Data
+- 3 devices were inserted
+- 3 events were inserted
+- RFID-001 reported 2 events
+- IO-001 reported 1 event
+- CAM-001 reported 0 events
+
+### SQL Queries
+The following queries were tested successfully:
+1. Display all devices
+2. Display recent events with device names, newest first
+3. Count events for every device, including devices with zero events
+4. Display events within a specific time range
+
+### Constraint Testing
+- Duplicate device ID was rejected (Error 1062)
+- Event referencing a nonexistent device was rejected (Error 1452)
+
+### Transaction Testing
+- COMMIT: Inserted a test device and its first event successfully
+- ROLLBACK: Inserted another test device and event, then rolled back both successfully
+
 ## Repository Link
 
 [Device Registry Console – GitHub](https://github.com/ghadiiy/device-registry-console)
@@ -63,3 +87,4 @@ This keeps the database records complete
 ## Latest Commit
 
 875de2c
+
